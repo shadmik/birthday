@@ -12,12 +12,15 @@ body{
   min-height: 100vh;
   background: #343F4F;
 }
+img {
+height: 100vh;
+width:35vw;}
 .wrapper{
   display: flex;
 }
 .wrapper .static-txt{
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
 }
 .wrapper .dynamic-txts{
@@ -29,7 +32,7 @@ body{
 .dynamic-txts li{
   list-style: none;
   color: #FC6D6D;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
   position: relative;
   top: 0;
